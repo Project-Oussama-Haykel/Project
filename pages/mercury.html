@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Earth</title>
+  <title>Mercury</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="../js/global.js"></script>
-  <script type="text/javascript" src="../js/main_earth.js"></script>
-  <link rel="stylesheet" type="text/css" href="../styles/styles_earth.css">
+  <script type="text/javascript" src="../js/main_mercury.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/styles_mercury.css">
   
 </head>
 <body>
@@ -18,10 +18,10 @@
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn active">Planets</a>
     <div class="dropdown-content">
-      <a href="#"  class="active">Earth</a>
+      <a href="./earth.html">Earth</a>
       <a href="./moon.html">Moon</a>
       <a href="./sun.html">Sun</a>
-      <a href="./mercury.html">Mercury</a>
+      <a href="#" class="active">Mercury</a>
       <a href="./venus.html">Venus</a>
       <a href="./mars.html">Mars</a>
       <a href="./jupiter.html">Jupiter</a>
@@ -40,6 +40,36 @@
   </li>
   <div><img id="logo"src="../images/RBK - Cohort 6.png"></div>
 </div>
+<div id="grid-container">
+  <div id="mercury-img">
+    <center><img id="mercury" src="../images/mercury.png"></center>
+  </div>
+<div id="tex">
+  <p>
+  Mercury is the smallest and innermost planet in the Solar System.<br> 
+  Its orbit around the Sun takes 87.97 days, the shortest of all the planets in the Solar System.<br> 
+  It is named after the Greek god Hermes (Ερμής), translated into Latin Mercurius Mercury, god of commerce, messenger of the gods, mediator between gods and mortals.
+  </p>
+</div>
+<div id="calcul"> 
+  <div> 
+    <label id="pick" for="planet">Pick a planet</label><br>
+    <select name="planet" id="list">
+      <option value="earth">earth</option>
+      <option value="sun">Sun</option>
+      <option value="saturn">saturn</option>
+      <option value="venus">venus</option>
+      <option value="mars">mars</option>
+      <option value="jupiter">jupiter</option>
+      <option value="uranus">uranus</option>
+      <option value="neptune">neptune</option>
+    </select>
+    <br><br>
+    <input id="check" type="submit" value="check">
+  </div>
+</div>
+</div>
+
 
 
 <div class="footer-contacts">
@@ -47,6 +77,8 @@
     <li><a href=""><i><img src="../images/facebook.png" class="social"></i></a></li>
     <li><a href=""><i><img src="../images/twitter.png" class="social"></i></a></li>
     <li><a href=""><i><img src="../images/linkedin.png" class="social"></i></a></li>
+    <button id="print">Print this page</button>
+    <button id="download">Download</button>
   </ul>
 </div>
 </div>

@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Earth</title>
+  <title>mars</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="../js/global.js"></script>
-  <script type="text/javascript" src="../js/main_earth.js"></script>
-  <link rel="stylesheet" type="text/css" href="../styles/styles_earth.css">
+  <script type="text/javascript" src="../js/main_mars.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/styles_mars.css">
   
 </head>
 <body>
@@ -18,12 +18,12 @@
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn active">Planets</a>
     <div class="dropdown-content">
-      <a href="#"  class="active">Earth</a>
+      <a href="./earth.html">Earth</a>
       <a href="./moon.html">Moon</a>
       <a href="./sun.html">Sun</a>
       <a href="./mercury.html">Mercury</a>
       <a href="./venus.html">Venus</a>
-      <a href="./mars.html">Mars</a>
+      <a href="#" class="active">Mars</a>
       <a href="./jupiter.html">Jupiter</a>
       <a href="./saturn.html">Saturn</a>
       <a href="./uranus.html">Uranus</a>
@@ -40,6 +40,36 @@
   </li>
   <div><img id="logo"src="../images/RBK - Cohort 6.png"></div>
 </div>
+<div id="grid-container">
+  <div id="mars-img">
+    <center><img id="mars" src="../images/mars.png"></center>
+  </div>
+<div id="tex">
+  <p>
+  Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being only larger than Mercury.<br> 
+  In English, Mars carries the name of the Roman god of war and is often referred to as the "Red Planet".<br> 
+  The latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a reddish appearance distinctive among the astronomical bodies visible to the naked eye.<br> 
+  Mars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth.
+  </p>
+</div>
+<div id="calcul"> 
+  <div> 
+    <label id="pick" for="planet">Pick a planet</label><br>
+    <select name="planet" id="list">
+      <option value="earth">earth</option>
+      <option value="sun">Sun</option>
+      <option value="mercury">mercury</option>
+      <option value="venus">venus</option>
+      <option value="saturn">saturn</option>
+      <option value="jupiter">jupiter</option>
+      <option value="uranus">uranus</option>
+      <option value="neptune">neptune</option>
+    </select>
+    <br><br>
+    <input id="check" type="submit" value="check">
+  </div>
+</div>
+</div>
 
 
 <div class="footer-contacts">
@@ -47,6 +77,8 @@
     <li><a href=""><i><img src="../images/facebook.png" class="social"></i></a></li>
     <li><a href=""><i><img src="../images/twitter.png" class="social"></i></a></li>
     <li><a href=""><i><img src="../images/linkedin.png" class="social"></i></a></li>
+    <button id="print">Print this page</button>
+    <button id="download">Download</button>
   </ul>
 </div>
 </div>

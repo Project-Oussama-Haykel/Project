@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Earth</title>
+  <title>moon</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="../js/global.js"></script>
-  <script type="text/javascript" src="../js/main_earth.js"></script>
-  <link rel="stylesheet" type="text/css" href="../styles/styles_earth.css">
+  <script type="text/javascript" src="../js/main_moon.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/styles_moon.css">
   
 </head>
 <body>
@@ -18,8 +18,8 @@
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn active">Planets</a>
     <div class="dropdown-content">
-      <a href="#"  class="active">Earth</a>
-      <a href="./moon.html">Moon</a>
+      <a href="./earth.html">Earth</a>
+      <a href="#" class="active">Moon</a>
       <a href="./sun.html">Sun</a>
       <a href="./mercury.html">Mercury</a>
       <a href="./venus.html">Venus</a>
@@ -40,6 +40,17 @@
   </li>
   <div><img id="logo"src="../images/RBK - Cohort 6.png"></div>
 </div>
+<div id="grid-container">
+  <div id="moon-img">
+    <center><img id="moon" src="../images/moon.png"></center>
+  </div>
+<div id="tex">
+  <p>
+  The Moon is an astronomical body orbiting Earth and is the planet's only natural satellite.<br> 
+  It is the fifth-largest satellite in the Solar System, and by far the largest among planetary satellites relative to the size of the planet that it orbits.<br> 
+  The Moon is, after Jupiter's satellite Io, the second-densest satellite in the Solar System among those whose densities are known.
+  </p>
+</div>
 
 
 <div class="footer-contacts">
@@ -47,6 +58,8 @@
     <li><a href=""><i><img src="../images/facebook.png" class="social"></i></a></li>
     <li><a href=""><i><img src="../images/twitter.png" class="social"></i></a></li>
     <li><a href=""><i><img src="../images/linkedin.png" class="social"></i></a></li>
+    <button id="print">Print this page</button>
+    <button id="download">Download</button>
   </ul>
 </div>
 </div>
