@@ -31,7 +31,7 @@ var neptune=makePlanet("neptun", (1,024* Math.pow(10,26)), (4.3*Math.pow(10,9)),
 var planets =[sun, mercury, venus, earth, mars, jupiter, saturne, uranus, neptune, moon];
 //display planet distance is a function that given an array of object of planet and an element's ID,it loop through
 //and return a distance between planet 
-function displayBooks(planet, $id) {    
+function displayplanet(planet, $id) {    
             var $planet = $('<span></span>');
             $planet.text('the distance between the actual planet and '+ planet.name+' is: '+ distance());            
             $planet.appendTo($id);

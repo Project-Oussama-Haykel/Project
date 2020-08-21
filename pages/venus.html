@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Earth</title>
+  <title>venus</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="../js/global.js"></script>
-  <script type="text/javascript" src="../js/main_earth.js"></script>
-  <link rel="stylesheet" type="text/css" href="../styles/styles_earth.css">
+  <script type="text/javascript" src="../js/main_venus.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/styles_venus.css">
   
 </head>
 <body>
@@ -40,6 +40,39 @@
   </li>
   <div><img id="logo"src="../images/RBK - Cohort 6.png"></div>
 </div>
+<div id="grid-container">
+  <div id="venus-img">
+    <center><img id="venus" src="../images/venus.png"></center>
+  </div>
+<div id="tex">
+  <p>
+    Venus is the second planet from the Sun.<br> 
+    It is named after the Roman goddess of love and beauty.<br> 
+    As the second-brightest natural object in the night sky after the Moon, Venus can cast shadows and can be, on rare occasion, visible to the naked eye in broad daylight.<br> 
+    Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a bit before dawn.<br> 
+    Venus orbits the Sun every 224.7 Earth days.<br> 
+    With a rotation period of 243 Earth days, it takes longer to rotate about its axis than any other planet in the Solar System and does so in the opposite direction to all but Uranus (meaning the Sun rises in the west and sets in the east).<br>
+    Venus does not have any moons, a distinction it shares only with Mercury among planets in the Solar System.
+  </p>
+</div>
+<div id="calcul"> 
+  <div> 
+    <label id="pick" for="planet">Pick a planet</label><br>
+    <select name="planet" id="list">
+      <option value="earth">earth</option>
+      <option value="sun">Sun</option>
+      <option value="mercury">mercury</option>
+      <option value="saturn">saturn</option>
+      <option value="mars">mars</option>
+      <option value="jupiter">jupiter</option>
+      <option value="uranus">uranus</option>
+      <option value="neptune">neptune</option>
+    </select>
+    <br><br>
+    <input id="check" type="submit" value="check">
+  </div>
+</div>
+</div>
 
 
 <div class="footer-contacts">
@@ -47,6 +80,8 @@
     <li><a href=""><i><img src="../images/facebook.png" class="social"></i></a></li>
     <li><a href=""><i><img src="../images/twitter.png" class="social"></i></a></li>
     <li><a href=""><i><img src="../images/linkedin.png" class="social"></i></a></li>
+    <button id="print">Print this page</button>
+    <button id="download">Download</button>
   </ul>
 </div>
 </div>

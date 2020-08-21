@@ -100,10 +100,78 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+#neptune{
+  height: 100%;
+  width: 100%;
+  display: inline-block;    
+  }
+#neptune-img{
+  grid-area: img;
+line-height: 450px;
+}
+#neptune-img img{
+  vertical-align: middle;
+}
+
+#tex {
+grid-area: text;
+font-size: 20px;
+margin-top: 10%;
+
+}
+
+
+#calcul{
+
+grid-area: form;
+margin-top: 30%;  
+}
+#calcul div{
+display: inline-block;
+}
+#pick{  
+font-size: 48px;
+}
+
+#check {
+background: #5F9EA0;
+width: 20%;
+border: none;
+outline: none;
+border-radius: 10px;
+box-shadow: 3px 4px 3px black;
+color: white;
+cursor: pointer;
+font-weight: bold;
+padding: 5px;
+text-align: center;
+text-shadow: 1px 1px 1px black;
+}
+#check:hover {
+border-color: #c2e3f7 #166797 #166797 #c2e3f7;
+border-style: solid;
+border-width: 2px;
+}
+#check:active {
+box-shadow: 1px 2px 1px black;
+transform: translateY(2px);
+}
+
+#grid-container {
+display: grid;
+grid-template-columns: 500px 400px 300px;
+grid-template-rows: 450px;
+grid-template-areas: 'img text form';
+grid-gap: 10px;  
+padding: 10px;
+justify-content: left;
+
+}
 .footer-contacts {
   position: absolute;
   bottom: 5px;
   display: block;
+  width: 100%;
 }
 .footer-contacts a {
   display: block;
@@ -136,6 +204,53 @@ i {
 .footer-contacts i:hover {
   background-color: #b3e5fc;
 }
+#print {
+	background: #5F9EA0;
+	width: 10%;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	box-shadow: 3px 4px 3px black;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 10px;
+}
+#print:hover {
+	border-color: #c2e3f7 #166797 #166797 #c2e3f7;
+	border-style: solid;
+	border-width: 2px;
+}
+#print:active {
+	box-shadow: 1px 2px 1px black;
+	transform: translateY(2px);
+}
+#download {
+	background: #5F9EA0;
+	width: 10%;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	box-shadow: 3px 4px 3px black;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+}
+#download:hover {
+	border-color: #c2e3f7 #166797 #166797 #c2e3f7;
+	border-style: solid;
+	border-width: 2px;
+}
+#download:active {
+	box-shadow: 1px 2px 1px black;
+	transform: translateY(2px);
+}
 
 @media only screen and (max-height: 400px) {
   h1 {
@@ -143,3 +258,4 @@ i {
     top: 15em;
    
   }
+}
