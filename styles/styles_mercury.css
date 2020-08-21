@@ -1,19 +1,19 @@
 html, body {
-	height: 100%;
-	margin: 0;
-	color: white;
-	background-color: black;
+  height: 100%;
+  margin: 0;
+  color: white;
+  background-color: black;
 }
 
 #all {
-	z-index: 2;
-	position: relative;
-	height: 100%;
+  z-index: 2;
+  position: relative;
+  height: 100%;
 }
-.bgd {	
-	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/solar-system-3.gif);
+.bgd {  
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/stars_galaxy.jpg);
     opacity: 1;
-	background-position: center center;
+  background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     left: 0;
@@ -23,23 +23,23 @@ html, body {
     top: 0;
     z-index: 1;
     width: 100%;
-	height: 100%;
+  height: 100%;
 }
 h1 {
-	position: relative;
-	top: 13em;
-	text-align: center;
+  position: relative;
+  top: 13em;
+  text-align: center;
 }
 #navbar img {
-	display:block;
-	text-align: center;
-	height: 5%;
-	width: 5%;
-	float: right;
+  display:block;
+  text-align: center;
+  height: 5%;
+  width: 5%;
+  float: right;
 }
 #logo {
-	float: right;
-	
+  float: right;
+  
 }
 .active {
   background-color: #5F9EA0;
@@ -101,9 +101,9 @@ li.dropdown {
   display: block;
 }
 .footer-contacts {
-	position: absolute;
-	bottom: 5px;
-	display: block;
+  position: absolute;
+  bottom: 5px;
+  display: block;
 }
 .footer-contacts a {
   display: block;
@@ -128,7 +128,7 @@ i {
     display: inline-block;
 }
 .social {
-	width: 30px;
+  width: 30px;
     height: 30px;
     text-align: center;
     display: inline-block;
@@ -139,8 +139,7 @@ i {
 
 @media only screen and (max-height: 400px) {
   h1 {
-  	font-size: 20px;
-  	top: 15em;
+    font-size: 20px;
+    top: 15em;
    
   }
-}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Earth</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/global.js"></script>
+  <script type="text/javascript" src="../js/main_uranus.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/styles_uranus.css">
+  
+</head>
+<body>
+<div class="bgd"></div>
+
+<div id="all">
+<div id="navbar">
+  <li class="list"><a href="../index.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn active">Planets</a>
+    <div class="dropdown-content">
+      <a href="./earth.html">Earth</a>
+      <a href="./moon.html">Moon</a>
+      <a href="./sun.html">Sun</a>
+      <a href="./mercury.html">Mercury</a>
+      <a href="./venus.html">Venus</a>
+      <a href="./mars.html">Mars</a>
+      <a href="./jupiter.html">Jupiter</a>
+      <a href="./saturn.html">Saturn</a>
+      <a href="#"  class="active">Uranus</a>
+      <a href="./neptune.html">Neptune</a>
+    </div>
+    </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">More Information</a>
+    <div class="dropdown-content">
+      <a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/" target="_blank">Nasa</a>
+      <a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank">Wikipedia</a>
+      <a href="https://www.google.com/intl/en/sky/" target="_blank">Google Sky</a>
+    </div>
+  </li>
+  <div><img id="logo"src="../images/RBK - Cohort 6.png"></div>
+</div>
+<div id="grid-container">
+  <div id="uranus-img">
+    <center><img id="uranus" src="../images/uranus.png"></center>
+  </div>
+<div id="tex">
+  <p>
+    Uranus is the seventh planet from the Sun.<br> 
+    Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the grandfather of Zeus (Jupiter) and father of Cronus (Saturn).<br> 
+    It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune,<br> 
+    and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as "ice giants" to distinguish them from the other gas giants.<br> 
+    Uranus' atmosphere is similar to Jupiter's and Saturn's in its primary composition of hydrogen and helium, but it contains more "ices" such as water, ammonia, and methane, along with traces of other hydrocarbons.<br> 
+   
+  </p>
+</div>
+<div id="calcul"> 
+  <div> 
+    <label id="pick" for="planet">Pick a planet</label><br>
+    <select name="planet" id="list">
+      <option value="earth">earth</option>
+      <option value="sun">Sun</option>
+      <option value="mercury">mercury</option>
+      <option value="venus">venus</option>
+      <option value="mars">mars</option>
+      <option value="jupiter">jupiter</option>
+      <option value="saturn">saturn</option>
+      <option value="neptune">neptune</option>
+    </select>
+    <br><br>
+    <input id="check" type="submit" value="check">
+  </div>
+</div>
+</div>
+
+
+<div class="footer-contacts">
+  <ul class="list-inline">
+    <li><a href=""><i><img src="../images/facebook.png" class="social"></i></a></li>
+    <li><a href=""><i><img src="../images/twitter.png" class="social"></i></a></li>
+    <li><a href=""><i><img src="../images/linkedin.png" class="social"></i></a></li>
+    <button id="print">Print this page</button>
+    <button id="download">Download</button>
+  </ul>
+</div>
+</div>
+
+</body>
+</html>

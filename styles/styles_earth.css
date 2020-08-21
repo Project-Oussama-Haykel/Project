@@ -11,7 +11,7 @@ html, body {
 	height: 100%;
 }
 .bgd {	
-	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/solar-system-3.gif);
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/stars_galaxy.jpg);
     opacity: 1;
 	background-position: center center;
     background-repeat: no-repeat;
@@ -143,4 +143,3 @@ i {
   	top: 15em;
    
   }
-}
