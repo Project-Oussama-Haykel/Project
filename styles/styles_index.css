@@ -25,6 +25,78 @@ html, body {
     width: 100%;
 	height: 100%;
 }
+.planets {
+  display: none;
+}
+#earth-pic {
+  height: 18%;
+  width: auto;
+  position: absolute;
+  top: 6em;
+  left: 20em;
+}
+#sun-pic {
+  height: 50%;
+  width: auto;
+  position: absolute;
+  top: 10em;
+  left: 30em;
+}
+#moon-pic {
+  height: 10%;
+  width: auto;
+  position: absolute;
+  top: 8em;
+  left: 26em;
+}
+#mercury-pic {
+  height: 6%;
+  width: auto;
+  position: absolute;
+  top: 20em;
+  left: 30em;
+}
+#venus-pic {
+  height: 8%;
+  width: auto;
+  position: absolute;
+  top: 12em;
+  left: 60em;
+}
+#mars-pic {
+  height: 15%;
+  width: auto;
+  position: absolute;
+  top: 18em;
+  left: 15em;
+}
+#jupiter-pic {
+  height: 30%;
+  width: auto;
+  position: absolute;
+  top: 26em;
+  left: 20em;
+}
+#saturn-pic {
+  height: 25%;
+  width: auto;
+  position: absolute;
+  top: 26em;
+  left: 50em;
+}
+#uranus-pic {
+  height: 30%;
+  width: auto;
+  position: absolute;
+  top: 2em;
+  left: 45em;
+}#neptune-pic {
+  height: 20%;
+  width: auto;
+  position: absolute;
+  top: 18em;
+  left: 70em;
+}
 h1 {
 	position: relative;
 	top: 13em;
@@ -143,3 +215,4 @@ i {
   	top: 15em;
    
   }
+}
