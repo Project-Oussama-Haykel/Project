@@ -7,11 +7,9 @@
 	<script type="text/javascript" src="../js/global.js"></script>
 	<script type="text/javascript" src="../js/main_earth.js"></script>
 	<link rel="stylesheet" type="text/css" href="../styles/styles_earth.css">
-	
 </head>
 <body>
 <div class="bgd"></div>
-
 <div id="all">
 <div id="navbar">
   <li class="list"><a href="../index.html">Home</a></li>
@@ -46,7 +44,7 @@
   </div>
 <div id="tex">
   <p>
-  Earth is the third planet from the Sun and the only astronomical object known to harbor life.<br> 
+  <e>Earth</e> is the third planet from the Sun and the only astronomical object known to harbor life.<br> 
   According to radiometric dating estimation and other evidence, Earth formed over 4.5 billion years ago.<br> 
   Earth's gravity interacts with other objects in space, especially the Sun and the Moon, which is Earth's only natural satellite.<br> 
   Earth orbits around the Sun in 365.256 solar days, a period known as an Earth sidereal year.<br> 
@@ -57,30 +55,31 @@
   <div> 
     <label id="pick" for="planet">Pick a planet</label><br>
     <select name="planet" id="list">
-      <option value="saturn">saturn</option>
-      <option value="sun">Sun</option>
-      <option value="mercury">mercury</option>
-      <option value="venus">venus</option>
-      <option value="mars">mars</option>
-      <option value="jupiter">jupiter</option>
-      <option value="uranus">uranus</option>
-      <option value="neptune">neptune</option>
+      <option value="Saturn">Saturn</option>
+      <option value="Sun">Sun</option>
+      <option value="Mercury">Mercury</option>
+      <option value="Venus">Venus</option>
+      <option value="Mars">Mars</option>
+      <option value="Jupiter">Jupiter</option>
+      <option value="Uranus">Uranus</option>
+      <option value="Neptune">Neptune</option>
     </select>
     <br><br>
-    <input id="check" type="submit" value="check">
-  </div>
+    <button id="check">Check</button>
+    <button id="clear">Clear</button>
+  </div><br><br>
+  <div id="result"></div>
 </div>
 </div>
-
-
 <div class="footer-contacts">
 	<ul class="list-inline">
 		<li><a href=""><i><img src="../images/facebook.png" class="social"></i></a></li>
 		<li><a href=""><i><img src="../images/twitter.png" class="social"></i></a></li>
 		<li><a href=""><i><img src="../images/linkedin.png" class="social"></i></a></li>
 	</ul>
+  <button id="print">Print this page</button>
+  <button id="download">Download</button>
 </div>
 </div>
-
 </body>
 </html>
