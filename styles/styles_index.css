@@ -28,18 +28,6 @@ html, body {
 .planets {
   display: none;
 }
-.planets span {
-  visibility: hidden;
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-  position: relative;
-  z-index: 1;
-}
-.planets a:hover span {
-  visibility: visible;
-}
 #earth-pic {
   height: 18%;
   width: auto;
