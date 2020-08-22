@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('h1').css('cursor', 'pointer');
+	
 	$('h1').click(function(){
 		$(this).hide();
 		$('.bgd').css('backgroundImage', 'linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),url(images/stars_galaxy.jpg)')
