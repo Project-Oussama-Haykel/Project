@@ -46,7 +46,7 @@
   </div>
 <div id="tex">
   <p>
-    Venus is the second planet from the Sun.<br> 
+    <e>Venus</e> is the second planet from the Sun.<br> 
     It is named after the Roman goddess of love and beauty.<br> 
     As the second-brightest natural object in the night sky after the Moon, Venus can cast shadows and can be, on rare occasion, visible to the naked eye in broad daylight.<br> 
     Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a bit before dawn.<br> 
@@ -59,19 +59,21 @@
   <div> 
     <label id="pick" for="planet">Pick a planet</label><br>
     <select name="planet" id="list">
-      <option value="earth">earth</option>
-      <option value="sun">Sun</option>
-      <option value="mercury">mercury</option>
-      <option value="saturn">saturn</option>
-      <option value="mars">mars</option>
-      <option value="jupiter">jupiter</option>
-      <option value="uranus">uranus</option>
-      <option value="neptune">neptune</option>
+      <option value="Earth">Earth</option>
+      <option value="Sun">Sun</option>
+      <option value="Mercury">Mercury</option>
+      <option value="Saturn">Saturn</option>
+      <option value="Mars">Mars</option>
+      <option value="Jupiter">Jupiter</option>
+      <option value="Uranus">Uranus</option>
+      <option value="Neptune">Neptune</option>
     </select>
     <br><br>
-    <input id="check" type="submit" value="check">
+    <button id="check">Check</button>
+    <button id="clear">Clear</button>
+  </div><br><br>
+  <div id="result"></div>
   </div>
-</div>
 </div>
 
 
@@ -80,9 +82,10 @@
     <li><a href=""><i><img src="../images/facebook.png" class="social"></i></a></li>
     <li><a href=""><i><img src="../images/twitter.png" class="social"></i></a></li>
     <li><a href=""><i><img src="../images/linkedin.png" class="social"></i></a></li>
-    <button id="print">Print this page</button>
-    <button id="download">Download</button>
+    
   </ul>
+  <button id="print">Print this page</button>
+    <button id="download">Download</button>
 </div>
 </div>
 
