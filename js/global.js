@@ -28,7 +28,7 @@ var uranus=makePlanet("Uranus", (8.681* Math.pow(10,25)), (2.6* Math.pow(10,9)),
    
 var neptune=makePlanet("Neptune", (1.024* Math.pow(10,26)), (4.3*Math.pow(10,9)), 'r');
    
-var planets =[sun, mercury, venus, earth, mars, jupiter, saturne, uranus, neptune, moon];
+var planets =[sun, mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, moon];
 //display planet is a function that given a planet object and an element's ID, use distance function to calculate the distance between the actual
 //planet and the planet argument, then display the output string to a div and append it to the element's id.
 

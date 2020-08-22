@@ -1,4 +1,8 @@
 $(document).ready(function() {
+	$('body').css('fontFamily', 'Metropolis,Helvetica,Arial,sans-serif');
+	$('#print').click(function() {
+		window.print()
+	});
 	$('#check').css('width', '25%');
 	$('#clear').css('width', '25%');
 	$('#list').css('fontSize', '20px');
