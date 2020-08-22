@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$('body').css('fontFamily', 'Metropolis,Helvetica,Arial,sans-serif');
 	$('h1').css('cursor', 'pointer');
 	
 	$('h1').click(function(){
