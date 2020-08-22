@@ -22,7 +22,7 @@ var mars= makePlanet("Mars", (6.39* Math.pow(10,23)), (54.6* Math.pow(10,6)), 'r
    
 var jupiter= makePlanet("Jupiter", (1.898* Math.pow(10,27)), (588* Math.pow(10,6)), 'r');
     
-var saturne = makePlanet("Saturn", (5.683* Math.pow(10,26)), (1.2* Math.pow(10,9)), 'r');
+var saturn = makePlanet("Saturn", (5.683* Math.pow(10,26)), (1.2* Math.pow(10,9)), 'r');
     
 var uranus=makePlanet("Uranus", (8.681* Math.pow(10,25)), (2.6* Math.pow(10,9)), 'r');
    
